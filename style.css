@@ -28,6 +28,7 @@ body {
   font-family: fontAwesome;
   font-size: 5rem;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 #container input[type='radio']:hover,
@@ -35,4 +36,22 @@ body {
 #container input[type='radio']:checked,
 #container input[type='radio']:checked ~ input[type='radio'] {
   color: #dddd00;
+}
+
+button {
+  display: none;
+  margin: auto;
+  width: fit-content;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  color: #e1e1e1;
+  cursor: pointer;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
